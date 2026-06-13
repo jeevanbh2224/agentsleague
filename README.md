@@ -1,6 +1,6 @@
-# Battle- Reasoning Agents Challenge: The Fractured Orbit
+# Battle- Reasoning Agents Challenge
 
-# 🛸 The Fractured Orbit
+#         🛸 The Fractured Orbit
 
 > A space station murder mystery RPG powered by a multi-agent AI system built on Azure AI Foundry and GPT-4o.
 
