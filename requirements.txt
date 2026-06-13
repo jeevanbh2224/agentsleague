@@ -1,0 +1,14 @@
+azure-ai-projects>=1.0.0b10
+azure-identity>=1.17.0
+openai>=1.40.0
+azure-cosmos>=4.7.0
+azure-search-documents>=11.6.0
+azure-storage-blob>=12.20.0
+azure-monitor-opentelemetry-exporter>=1.0.0b28
+opentelemetry-api>=1.25.0
+opentelemetry-sdk>=1.25.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+colorama>=0.4.6
+fastapi>=0.111.0
+uvicorn>=0.29.0
