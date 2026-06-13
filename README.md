@@ -385,18 +385,6 @@ Other tool integrations used by the Game Master agent:
 
 ---
 
-## 🏆 Evaluation Criteria Alignment
-
-| Criterion | Weight | How this project addresses it |
-|---|---|---|
-| **Accuracy & Relevance** | 25% | Foundry IQ grounding ensures agents cite lore rather than hallucinate; eval-01–07 automated tests verify grounding correctness |
-| **Reasoning & Multi-step Thinking** | 25% | All 4 reasoning patterns; `kai_stage` 1→4 progression; oxygen urgency loop; evidence-gated culprit reveal |
-| **Creativity & Originality** | 15% | Space station murder mystery scenario; ASCII scene art engine that changes per character; number-to-choice resolution UX; oxygen decay urgency mechanic |
-| **User Experience & Presentation** | 15% | Rich terminal UI with panels, pulse-effect status, animated loading; 14 context-aware ASCII scenes; OTel traces visible in App Insights |
-| **Reliability & Safety** | 20% | 7-layer guardrail system; Pydantic API validation; OTel traces; Cosmos DB persistence; graceful fallbacks (Search → local `.md`, Cosmos → in-memory) |
-
----
-
 ## ✅ Submission Requirements
 
 | Requirement | Status | Evidence |
