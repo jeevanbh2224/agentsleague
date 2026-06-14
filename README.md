@@ -135,7 +135,7 @@ The `CommanderAgent` decides which specialist agents to consult per turn — not
 
 ## 🧠 Reasoning Patterns
 
-#The system implements all four patterns recommended in the Agents League starter kit:
+##The system implements all four patterns recommended in the Agents League starter kit:
 
 | Pattern | Implementation |
 |---|---|
