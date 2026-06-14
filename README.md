@@ -135,8 +135,8 @@ The `CommanderAgent` decides which specialist agents to consult per turn — not
 
 ## 🧠 Reasoning Patterns
 
-##The system implements all four patterns recommended in the Agents League starter kit:
-
+**The system implements all four patterns recommended in the Agents League starter kit:
+**
 | Pattern | Implementation |
 |---|---|
 | **Planner–Executor** | `CommanderAgent` plans (interprets intent, selects agents, decides rolls) then executes (calls agents, synthesises narration, updates state). Specialist agents execute within bounded roles — they never plan. |
