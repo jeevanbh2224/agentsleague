@@ -4,6 +4,9 @@
 
 > A space station murder mystery RPG powered by a multi-agent AI system built on Azure AI Foundry and GPT-4o.
 
+
+Demo youtube video - https://youtu.be/aLMIQ3o2j8w
+
 ISS Tartarus. Deep space. Day 2891. Dr. Mira Voss is dead — Airlock 7 opened from the inside.
 HeliosCore Corporation wants it classified as an accident. You don't believe it was.
 
