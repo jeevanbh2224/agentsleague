@@ -18,29 +18,29 @@ oxygen runs out.
 ## 🏗️ Architecture
 
 ┌─────────────────────────────────────────────────────────────────┐
-│                        PLAYER (Terminal UI)                     │
-│         Rich panels · ASCII scene art · number shortcuts        │
+│                        PLAYER (Terminal UI)                      │
+│         Rich panels · ASCII scene art · number shortcuts         │
 └───────────────────────────┬─────────────────────────────────────┘
                             │ player action
                             ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                    CommanderAgent  (Game Master)                 │
+┌─────────────────────────────────────────────────────────────────┐
+│                    CommanderAgent  (Game Master)                  │
 │  Orchestrates all specialist agents · applies skill checks ·     │
 │  synthesises scene narration · tracks evidence & missions        │
 │  System prompt: ISS Tartarus world rules + narrative guidelines  │
-└──┬──────────┬──────────┬──────────┬──────────┬───────────────────┘
-   │          │          │          │          │       │
-   ▼          ▼          ▼          ▼          ▼       ▼
-┌──────┐ ┌────────┐ ┌────────┐ ┌───────┐ ┌────────┐┌─────────┐
-│ARIA  │ │Medic   │ │Suspect │ │Navi-  │ │Engin-  ││Medic-   │ 
-│Agent │ │Agent   │ │Agent   │ │gator  │ │eer     ││al offi  │   
-│      │ │        │ │        │ │Agent  │ │Agent   ││cer Agent│  
-│Ship  │ │Dr.Voss │ │Kai     │ │Lyra   │ │Zara    ││Dr.Patel │
-│AI    │ │autopsy │ │Reeves  │ │Chen   │ │Kim     ││         │
-│logs  │ │wounds  │ │alibi   │ │drones │ │reactor ││         │
-└──┬───┘ └───┬────┘ └───┬────┘ └──┬────┘ └───┬────┘└───┬─────┘
-   │         │          │         │          │         │
-   └─────────┴──────────┴────┬────┴──────────┘─────────┘
+└──┬──────────┬──────────┬──────────┬──────────┬──────────────────┘
+   │          │          │          │          │
+   ▼          ▼          ▼          ▼          ▼
+┌──────┐ ┌────────┐ ┌────────┐ ┌───────┐ ┌────────┐
+│ARIA  │ │Medic   │ │Suspect │ │Navi-  │ │Engin-  │
+│Agent │ │Agent   │ │Agent   │ │gator  │ │eer     │
+│      │ │        │ │        │ │Agent  │ │Agent   │
+│Ship  │ │Dr.Voss │ │Kai     │ │Lyra   │ │Zara    │
+│AI   │ │autopsy │ │Reeves  │ │Chen   │ │Kim     │
+│logs  │ │wounds  │ │alibi   │ │drones │ │reactor │
+└──┬───┘ └───┬────┘ └───┬────┘ └──┬────┘ └───┬────┘
+   │         │          │         │           │
+   └─────────┴──────────┴────┬────┴───────────┘
                              │ agent responses
                              ▼
               ┌──────────────────────────┐
